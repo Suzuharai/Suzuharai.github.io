@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(175, 175, 156);
+}
+
+#navigationbar{
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+
+#rnm{
+    font-family: 'Varela', sans-serif;
+    text-align: center;
+    color: rgb(187, 13, 13);
+    font-size: 5vw;
+    width: 15vw;
+    margin-right: 60vw;
+}
+
+#home{
+    text-align: center;
+    font-family: 'Varela', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 3vw;
+    padding: 2vh;
+    transition: .3s;
+}
+
+#home:hover{
+    background-color: white;
+    color: black;
+    transition: .3s;
+}
+
+#productcontainer{
+    width: 100%;
+    height: 100%;
+}
+
+.productrow{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.items{
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 0.3vw;
+    margin-top: 10px;
+    height: 35vh;
+    width: 50vw;
+}
+
+.carpic{
+    height: 100%;
+    width: 50%;
+    border-radius: 2px;
+}
+
+.iteminfo{
+    width: 50%;
+}
+
+.carname{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Varela', sans-serif;
+    font-size: 1.65vw;
+}
+
+.cardescription{
+    font-family: 'Varela', sans-serif;
+    height: 25vh;
+    font-size: 1.2vw;
+}
+
+.input{
+    display: none;
+}
+
+.submit{
+    background-color: rgba(0, 0, 0, 0.521);
+    border: none;
+    color: white;
+    height: 5vh;
+    width: 10vw;
+    margin-left: 8vw;
+    margin-top: 0.5vh;
+    transition: .3s;
+}
+
+.submit:hover{
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width:720px){
+    .productrow{
+        display: block;
+    }
+    .items{
+        height: 25vh;
+        width: 98vw;
+        margin-top: 30px;
+        margin-left: 0.5vw;
+    }
+    #home{
+        padding-top: .8vh;
+    }
+    .submit{
+        margin-bottom: .5vh;
+        margin-left: 15vw;
+        height: 3vh;
+        width: 20vw;
+    }
+    .carname{
+        font-size: 2.9vw;
+    }
+    .cardescription{
+        height: 19vh;
+        font-size: 2.3vw;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .carname{
+        font-size: 2.9vw;
+    }
+    .cardescription{
+        height: 19vh;
+        font-size: 2.3vw;
+    }
+    .submit{
+        margin-top: .5vh;
+    }
+}

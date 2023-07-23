@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Luxury Car, Luxury Cars, Luxury Sedan, Expensive, High Quality">
+    <link rel="stylesheet" href="indexstyle.css">
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <title>R&M Luxury Cars</title>
+</head>
+<body>
+    <!--Navigation Container - Navigation bar is fixed in position when scrolling-->
+    <div class="navigationcontainer">
+        <div class="navigationbar">
+            <h1 id="rnm">R&M</h1>
+            <nav>
+                <a href="#about" title="About Us">About Us</a>
+                <a href="#media" title="Media">Media</a>
+                <a href="about:blank" title="Services" target="_blank">Services</a>
+                <a href="about:blank" title="Shop" target="_blank">Shop</a>
+            </nav>
+        </div>
+
+        <div class="slogan">
+            <img id="shoplogo" src="/images/shoplogo.png" alt="R&M">
+            <h1 id="phrase">Bold, Classy, and Luxuriously Daring</h1>
+        </div>
+    </div>
+    <!--About Container - Describes our company-->
+    <div id="about">
+        <div id="aboutcontent">
+            <h1 id="aboutus">|About Us</h1>
+            <p id="abouttext">
+            Welcome to R&M Luxury Cars, where elegance meets performance.
+            We specialize in offering an exclusive collection of
+            meticulously crafted, high-end automobiles. With a passion for
+            automotive excellence, we curate the finest selection of luxury
+            cars that redefine sophistication and exhiliration. Elevate
+            your driving experience and indulge in the epitome of automotive
+            luxury with R&M Luxury Cars.
+            </p>
+        </div>
+    
+        <div id="aboutsidepic">
+        </div>
+    </div>
+    <!--Media Container - Display our company's contact platforms-->
+    <div id="media">
+            <h1 id="contactus">Contact Us</h1>
+    </div>
+</body>
+</html>

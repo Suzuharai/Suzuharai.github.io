@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(207, 207, 160);
+}
+
+header{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: 7vh;
+}
+
+#rnm{
+    font-family: 'Varela', sans-serif;
+    color: rgb(136, 12, 12);
+    font-size: 5vw;
+    padding-top: 1.5vh;
+    margin-right: 65vw;
+    margin-left: 3vw;
+}
+
+a{
+    font-family: 'Varela', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 10vw;
+    border: 1px solid rgb(124, 83, 83);
+    font-size: 1.5vw;
+    padding-top: 3.5vh;
+    transition: .3s;
+}
+
+a:hover{
+    color: black;
+    background-color: white;
+}
+
+h1{
+    font-family: 'Varela', sans-serif;
+    font-size: 5vw;
+}
+
+hr{
+    border: none;
+    color: black;
+    background-color: black;
+    height: 2px;
+    width: 80%;
+    margin-left: 9vw;
+    margin-top: 2vh;
+}
+
+#reference{
+    font-family: 'Varela', sans-serif;
+    background-color: rgba(128, 128, 128, 0.705);
+    border-radius: 10px;
+    font-size: 2vw;
+    margin-top: 7vh;
+    margin-left: 5vw;
+    width: 90%;
+}
+
+#contactus{
+    font-family: 'Varela', sans-serif;;
+    border-radius: 10px;
+    font-size: 2vw;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    width: 90%;
+}
+
+@media only screen and (max-width:720px){
+    #rnm{
+        padding-top: 3vh;
+        font-size: 10vw;
+        margin-right: 40vw;
+    }
+    a{
+        padding-top: 2.5vh;
+        font-size: 5vw;
+        width: 30vw;
+    }
+    h1{
+        font-size: 7vw;
+    }
+    hr{
+        width: 95%;
+        margin-left: 2.5vw;
+    }
+    #reference{
+        font-size: 2.5vw;
+        width: 95%;
+        margin-left: 2.5vw;
+    }
+    #contactus{
+        font-size: 4vw;
+        margin-top: 15vh;
+    }
+}

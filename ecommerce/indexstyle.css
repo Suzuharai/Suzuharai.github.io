@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.navigationcontainer{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+.navigationbar{
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
+#rnm{
+    position: relative;
+    color: rgb(189, 7, 7);
+    font-family: 'Varela', sans-serif;
+    font-size: 5vw;
+    margin-left: 3%;
+    margin-right: 40vw;
+    padding-top: 15px;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    background-color: rgba(0, 0, 0, .6);
+    height: 13vh;
+    left: 45vw;
+}
+
+.navcontents{
+    font-family: 'Varela', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(189, 7, 7);
+    padding-top: 30px;
+    font-size: 2vw;
+    width: 10vw;
+    transition: .3s;
+}
+
+.navcontents:hover{
+    font-family: 'Varela', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.082);
+    padding-top: 30px;
+    font-size: 2vw;
+    width: 10vw;
+    transition: .3s;
+}
+
+.slogan{
+    text-align: center;
+    margin-top: 250px;
+    width: 40%;
+    margin-left: 50px;
+}
+
+#shoplogo{
+    height: 30vh;
+    width: 10vw;
+}
+
+#phrase{
+    color: white;
+    font-family: 'Varela', sans-serif;
+    font-size: 4vw;
+}
+
+#about{
+    display: flex;
+    width: 100%;
+    height: 800px;
+}
+
+#aboutcontent{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+}
+
+#aboutsidepic{
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 60%;
+}
+
+#aboutus{
+    font-family: 'Varela', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+    font-size: 5vw;
+    width: 30vw;
+    margin-left: 5vw;
+    margin-top: 4vw;
+}
+
+#abouttext{
+    color: white;
+    font-family: 'Varela', sans-serif;
+    font-size: 2vw;
+    margin-left: 5vw;
+    width: 30vw;
+}
+
+#media{
+    width: 100%;
+    height: 800px;
+}
+
+.titlecontainer{
+    background-color: black;
+    height: 25%;
+}
+
+#contactus{
+    position: relative;
+    font-family: 'Varela', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    width: 30vw;
+    left: 34.6vw;
+    top: 7vh;
+}
+
+#mediacontainer{
+    display: flex;
+    height: 75%;
+    width: 100%;
+}
+
+#facebookcontainer{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#twittercontainer{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#instagramcontainer{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.medialogo{
+    width: 13vw;
+    margin-left: 11vw;
+}
+
+.medianames{
+    font-family: 'Varela', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.medialink{
+    display: block;
+    font-family: 'Varela', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+    font-size: 2.5vw;
+    width: 12vw;
+    margin-top: 15vh;
+    margin-left: 9vw;
+    padding: 2vw;
+    transition: .3s;
+}
+
+.medialink:hover{
+    display: block;
+    font-family: 'Varela', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    font-size: 2.5vw;
+    width: 12vw;
+    margin-top: 14vh;
+    margin-left: 9vw;
+    padding: 2vw;
+    transition: .3s
+}
+
+#services{
+    width: 100%;
+    height: 800px;
+}
+
+#offers{
+    position: relative;
+    font-family: 'Varela', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    width: 31vw;
+    left: 34.6vw;
+    top: 7vh;
+}
+
+.offercontainer{
+    text-align: center;
+    display: flex;
+    height: 300px;
+}
+
+.offercontent{
+    background-color: rgb(235, 235, 163);
+    height: 100%;
+    width: 100%;
+}
+
+.offericon{
+    height: 8vh;
+    margin-top: 10px;
+}
+
+.offertitle{
+    font-family: 'Varela', sans-serif;
+}
+
+.offerdescription{
+    font-family: 'Varela', sans-serif;
+    margin-left: 14.65vw;
+    width: 20vw;
+    font-size: 1vw;
+}
+
+#random{
+    /*for debugging purposes*/
+    background-color: blue;
+    width: 100%;
+    height: 800px;
+}
+
+@media only screen and (max-width:720px) {
+    nav{
+        display:block;
+        background-color: transparent;
+        left: 70vw;
+    }
+    .navcontents{
+        width: 150px;
+        font-size: 3vw;
+        display: block;
+        background-color: rgba(0, 0, 0, .6);
+    }
+    .navcontents:hover{
+        width: 150px;
+        font-size: 3vw;
+    }
+    #rnm{
+        margin-right: 55vw;
+    }
+    #shoplogo{
+            height: 14vh;
+            width: 13vw;
+    }
+    #abouttext{
+        font-size: 3vw;
+    }
+    .medianames{
+        text-align: center;
+        margin-top: 5vh;
+        margin-left: 1.5vw;
+        font-size: 5vw;
+    }
+    .medialogo{
+        margin-top: 10vh;
+    }
+    .medialink{
+        margin-top: 10vh;
+    }
+    .medialink:hover{
+        margin-top: 2vh;
+    }
+    .offerdescription{
+        width: 40vw;
+        margin-left: 5vw;
+        font-size: 1.9vw;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .offerdescription{
+        width: 40vw;
+        margin-left: 5vw;
+        font-size: 2vw;
+    }
+    #abouttext{
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (min-height:1280px){
+    .navigationcontainer{
+        height: 400px;
+    }
+    .slogan{
+        text-align: center;
+        margin-top: 50px;
+        width: 40%;
+        margin-left: 10px;
+    } 
+    #shoplogo{
+        height: 5vh;
+        width: 7vw;
+    }
+    #about{
+        height: 400px;
+    }
+    #abouttext{
+        font-size: 2.1vw;
+    }
+    #media{
+        height: 400px;
+    }
+    #contactus{
+        top: 2vh;     
+    }
+    .medialogo{
+        margin-top: 1vh;
+    }
+    .medialink{
+        margin-top: 1vw;
+    }
+    #services{
+        height: 400px;
+    }
+    #offers{
+        top: 2vh;
+    }
+    .offericon{
+        height: 4vh;
+    }
+}

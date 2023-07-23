@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Entry-level Luxury Car, High-end Luxury Car, Automatic Transmission Sports Car, Prestigious Sports Coupe, Most Expensive Car, Top Class Luxury Car">
+    <link rel="stylesheet" href="shopstyle.css">
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+    <title>R&M Luxury Cars</title>
+</head>
+    <!--Navigation Section - This section redirects the user to the home/index page-->
+    <div id="navigationbar">
+        <h1 id="rnm">R&M</h1>
+        <a id="home" href="index.php" title="Return to Home">Home</a>
+    </div>
+    <!--Product Containers - This section will present our products on sale-->
+    <div id="productcontainer">
+        <!--Product Rows - These rows contain 2 car products each-->
+        <div class="productrow">
+
+            <div class="items">
+                <img class="carpic" src="images/ProductImages/BentleyMulsanne.PNG" alt="Bently Mulssane">
+                <div class="iteminfo">
+                    <h1 class="carname">Bently Mulssane</h1>
+                    <p class="cardescription">Experience unparalleled luxury and power as you glide down the road in the Bentley Mulsanne, where exquisite craftsmanship meets breathtaking performance, creating a truly extraordinary driving experience.</p>
+                    <form action="orderpage.php" method="POST">
+                        <input class="input" type="text" name="carname" value="Bently Mulssane">
+                        <input class="input" type="text" name="carcode" value="Bently_Mulssane">
+                        <input class="input" type="text" name="carprice" value="15000000">
+                        <input class="submit" type="submit" value="Buy">
+                    </form>
+                </div>
+            </div>
+            
+            <div class="items">
+                <img class="carpic" src="images/ProductImages/MercedesBenzS.PNG" alt="Mercedes-Benz S">
+                <div class="iteminfo">
+                    <h1 class="carname">Mercedes-Benz S-Class</h1>
+                    <p class="cardescription">Elevate your journey to new heights with the Mercedes-Benz S-Class, a perfect blend of elegance and innovation, providing a smooth and exhilarating ride that will make you feel like you're floating on air.</p>
+                    <form action="http://localhost/ecommerce/orderpage.php" method="POST">
+                        <input class="input" type="text" name="carname" value="Mercedes-Benz S">
+                        <input class="input" type="text" name="carcode" value="Mercedes-Benz_S">
+                        <input class="input" type="text" name="carprice" value="5000000">
+                        <input class="submit" type="submit" value="Buy">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="productrow">
+            
+            <div class="items">
+                <img class="carpic" src="images/ProductImages/BMW7.PNG" alt="BMW 7 Series">
+                <div class="iteminfo">
+                    <h1 class="carname">BMW 7 Series</h1>
+                    <p class="cardescription">Unleash your inner driving enthusiast with the BMW 7 Series, a masterclass in dynamic performance and cutting-edge technology, delivering a thrilling combination of agility, power, and unmatched comfort.</p>
+                    <form action="http://localhost/ecommerce/orderpage.php" method="POST">
+                        <input class="input" type="text" name="carname" value="BMW 7 Series">
+                        <input class="input" type="text" name="carcode" value="BMW_7_Series">
+                        <input class="input" type="text" name="carprice" value="4250000">
+                        <input class="submit" type="submit" value="Buy">
+                    </form>
+                </div>
+            </div>
+            
+            <div class="items">
+                <img class="carpic" src="images/ProductImages/PorschePanamera.PNG" alt="Porsche Panamera">
+                <div class="iteminfo">
+                    <h1 class="carname">Porsche Panamera</h1>
+                    <p class="cardescription">Ignite your senses and satisfy your craving for speed with the Porsche Panamera, an icon of sports car engineering that effortlessly combines unrivaled performance with sleek and captivating design.</p>
+                    <form action="http://localhost/ecommerce/orderpage.php" method="POST">
+                        <input class="input" type="text" name="carname" value="Porsche Panamera">
+                        <input class="input" type="text" name="carcode" value="Porsche_Panamera">
+                        <input class="input" type="text" name="carprice" value="4750000">
+                        <input class="submit" type="submit" value="Buy">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="productrow">
+            
+            <div class="items">
+                <img class="carpic" src="images/ProductImages/LandRoverRange.PNG" alt="Land Rover Range Rover">
+                <div class="iteminfo">
+                    <h1 class="carname">Land Rover Range Rover</h1>
+                    <p class="cardescription">Conquer any terrain and arrive in style with the Land Rover Range Rover, a legendary SUV that offers supreme comfort, remarkable capability, and a commanding presence wherever you go.</p>
+                    <form action="http://localhost/ecommerce/orderpage.php" method="POST">
+                        <input class="input" type="text" name="carname" value="Land Rover Range Rover">
+                        <input class="input" type="text" name="carcode" value="Land_Rover_Range_Rover">
+                        <input class="input" type="text" name="carprice" value="17000000">
+                        <input class="submit" type="submit" value="Buy">
+                    </form>
+                </div>
+            </div>
+            
+            <div class="items">
+                <img class="carpic" src="images/ProductImages/BentleyContinental.PNG" alt="Bentley Continental GT">
+                <div class="iteminfo">
+                    <h1 class="carname">Bentley Continental GT</h1>
+                    <p class="cardescription">Experience the epitome of grand touring with the Bentley Continental GT, a masterwork of design and engineering that combines effortless performance, refined luxury, and timeless elegance into a single, awe-inspiring package.</p>
+                    <form action="http://localhost/ecommerce/orderpage.php" method="POST">
+                        <input class="input" type="text" name="carname" value="Bentley Continental GT">
+                        <input class="input" type="text" name="carcode" value="Bentley_Continental_GT">
+                        <input class="input" type="text" name="carprice" value="12000000">
+                        <input class="submit" type="submit" value="Buy">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="productrow">
+            
+            <div class="items">
+                <img class="carpic" src="images/ProductImages/AudiA8.PNG" alt="Audi A8">
+                <div class="iteminfo">
+                    <h1 class="carname">Audi A8</h1>
+                    <p class="cardescription">Step into a world of refinement and technological prowess with the Audi A8, a luxurious sedan that delivers a thrilling driving experience while providing unmatched comfort, innovative features, and exquisite attention to detail.</p>
+                    <form action="http://localhost/ecommerce/orderpage.php" method="POST">
+                        <input class="input" type="text" name="carname" value="Audi A8">
+                        <input class="input" type="text" name="carcode" value="Audi_A8">
+                        <input class="input" type="text" name="carprice" value="8000000">
+                        <input class="submit" type="submit" value="Buy">
+                    </form>
+                </div>
+            </div>
+            
+            <div class="items">
+                <img class="carpic" src="images/ProductImages/JaguarXJ.PNG" alt="Jaguar XJ">
+                <div class="iteminfo">
+                    <h1 class="carname">Jaguar XJ</h1>
+                    <p class="cardescription">Unleash your inner sophistication and embrace the art of driving with the Jaguar XJ, where elegance, power, and British craftsmanship seamlessly merge to create an unforgettable journey every time you hit the road.</p>
+                    <form action="http://localhost/ecommerce/orderpage.php" method="POST">
+                        <input class="input" type="text" name="carname" value="Jaguar XJ">
+                        <input class="input" type="text" name="carcode" value="Jaguar_XJ">
+                        <input class="input" type="text" name="carprice" value="7000000">
+                        <input class="submit" type="submit" value="Buy">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="productrow">
+            
+            <div class="items">
+                <img class="carpic" src="images/ProductImages/RollsBoatTail.PNG" alt="Rolls-Royce Boat Tail">
+                <div class="iteminfo">
+                    <h1 class="carname">Rolls-Royce Boat Tail</h1>
+                    <p class="cardescription">Embark on a journey of pure opulence and exclusivity with the Rolls-Royce Boat Tail, a bespoke masterpiece that redefines automotive luxury, featuring exquisite craftsmanship, timeless design, and unparalleled attention to detail, ensuring you stand out as a true connoisseur of the extraordinary.</p>
+                    <form action="http://localhost/ecommerce/orderpage.php" method="POST">
+                        <input class="input" type="text" name="carname" value="Rolls-Royce Boat Tail">
+                        <input class="input" type="text" name="carcode" value="Rolls-Royce_Boat_Tail">
+                        <input class="input" type="text" name="carprice" value="139000000">
+                        <input class="submit" type="submit" value="Buy">
+                    </form>
+                </div>
+            </div>
+            
+            <div class="items">
+                <img class="carpic" src="images/ProductImages/LexusLS.PNG" alt="Lexus LS">
+                <div class="iteminfo">
+                    <h1 class="carname">Lexus LS</h1>
+                    <p class="cardescription">Indulge in the perfect harmony of luxury and performance with the Lexus LS, a meticulously crafted sedan that offers a smooth and exhilarating ride, combining advanced technology, exquisite comfort, and a striking design that captivates at every turn.</p>
+                    <form action="http://localhost/ecommerce/orderpage.php" method="POST">
+                        <input class="input" type="text" name="carname" value="Lexus LS">
+                        <input class="input" type="text" name="carcode" value="Lexus_LS">
+                        <input class="input" type="text" name="carprice" value="6000000">
+                        <input class="submit" type="submit" value="Buy">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
