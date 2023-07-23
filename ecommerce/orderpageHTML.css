@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rnm{
+    font-family: 'Varela', sans-serif;
+    color: rgb(136, 12, 12);
+    font-size: 5vw;
+    margin-right: 65vw;
+    margin-left: 3vw;
+}
+
+#banner{
+    font-family: 'Varela', sans-serif;
+    text-align: center;
+    font-size: 3vw;
+    margin-top: .5vh;
+}
+
+#shopDirect{
+    font-family: 'Varela', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 10vw;
+    border: 1px solid rgb(124, 83, 83);
+    font-size: 1.5vw;
+    padding-top: 2vh;
+    transition: .3s;
+}
+
+#shopDirect:hover{
+    color: black;
+    background-color: white;
+}
+
+form{
+    display: flex;
+}
+
+div{
+    border-right: 1px solid black;
+    margin-top: 2vh;
+    height: 77vh;
+    width: 50%;
+}
+
+.billbanner{
+    font-family: 'Varela', sans-serif;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.hidden{
+    display: none;
+}
+
+input{
+    font-family: 'Varela', sans-serif;
+    border-style: solid;
+    border-radius: 9px;
+    border-color: rgb(114, 96, 96);
+    margin-top: 2vh;
+    height: 5vh;
+    width: 30vw;
+    margin-left: 10vw;
+    font-size: 1.5vw;
+}
+
+hr{
+    border: none;
+    color: black;
+    background-color: black;
+    height: 2px;
+    width: 80%;
+    margin-left: 5vw;
+    margin-top: 2vh;
+}
+
+#selectedcar{
+    font-family: 'Varela', sans-serif;
+    background-color: rgb(153, 124, 124);
+    border-color: rgb(114, 96, 96);
+    border-radius: 9px;
+    border-width: 1px;
+    font-size: 1.65vw;
+    width: 30.5vw;
+    height: 5vh;
+    margin-left: 10vw;
+    margin-top: 1vh;
+}
+
+select{
+    font-family: 'Varela', sans-serif;
+    background-color: rgb(153, 124, 124);
+    border-radius: 9px;
+    font-size: 2vw;
+    width: 30.6vw;
+    height: 5vh;
+    margin-left: 10vw;
+    margin-top: 2vh;
+}
+
+#carprice{
+    font-family: 'Varela', sans-serif;
+    background-color: rgb(153, 124, 124);
+    border-radius: 9px;
+    font-size: 2vw;
+    width: 30.6vw;
+    height: 5vh;
+    margin-left: 10vw;
+    margin-top: 2vh;
+}
+
+#referenceDirect{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: 'Varela', sans-serif;
+    border-style: solid;
+    border-radius: 9px;
+    border-color: rgb(114, 96, 96);
+    margin-top: 2vh;
+    height: 5vh;
+    margin-left: 10vw;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 30.6vw;
+    right: 9.0vw;
+    top: 40vh;
+}
+.cardpicType{
+    border: none;
+    width: 100%;
+    margin-top: 12vh;
+    height: 44vh;
+}
+
+.cardpicRows{
+    border: none;
+    width: 100%;
+    height: 50%;
+    margin: 0;
+}
+
+.cardpics{
+    height: 8vh;
+    width: 9vw;
+    margin-left: 2.5vw;
+    margin-top: 2.5vh;
+}
+
+@media only screen and (max-width:720px){
+    .billbanner{
+        font-size: 3vw;
+    }
+    input{
+        font-size: 2.5vw;
+    }
+    #selectedcar{
+        font-size: 2.5vw;
+    }
+    #color{
+        font-size: 3vw;
+    }
+    #carprice{
+        font-size: 3vw;
+    }
+    select{
+        font-size: 3vw;
+    }
+    #referenceDirect{
+        top: 29.5vh;
+    }
+    #rnm{
+        margin-right: 60vw;
+    }
+    a{
+        width: 15vw;
+        padding-top: 1vh;
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .cardpics{
+        height: 6vh;
+    }
+    input{
+        font-size: 2.5vw;
+    }
+    a{
+        padding-top: .5vh;
+    }
+    #referenceDirect{
+        top: 28vh;
+    }
+}
